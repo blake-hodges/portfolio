@@ -1,0 +1,17 @@
+/* #bd5d38 */
+/* change  */
+.last-name, .email-address {
+    color: #45A29E !important;
+}
+
+#sideNav {
+    background-color: #45A29E !important;
+}
+
+.github-link {
+    color: #495057;
+}
+
+.github-link:hover  {
+    color: #45A29E;
+}
