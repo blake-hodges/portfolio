@@ -1,5 +1,19 @@
-/* #bd5d38 */
-/* change  */
+/* color scheme */
+/* dark blue/ nearly black #0B0C10
+navy/ dark blue #1F2833
+light grey #C5C6C7 rgb(197, 198, 199)
+carolina blue #66FCF1 rgb(102, 252, 241)
+aqua blue #45A29E */
+
+/* general page styles */
+
+
+
+#projects {
+    max-width: 100rem !important;
+}
+
+/* about section */
 .last-name, .email-address {
     color: #45A29E !important;
 }
@@ -14,4 +28,54 @@
 
 .github-link:hover  {
     color: #45A29E;
+}
+
+/* portfolio items */
+
+.portfolio-item {
+    display: flex;
+    justify-content: center;
+}
+
+/* .section-heading {
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.info-wrapper {
+
+}
+
+.full-screenshot-wrapper {
+
+}
+
+.mobile-screenshot-wrapper {
+    flex-grow: 1;
+}
+
+.full-screenshot-wrapper, .mobile-screenshot-wrapper {
+    border: 1px solid #DFDFDF;
+    margin:0 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .mobile-screenshot-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .portfolio-item {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .full-screenshot-wrapper {
+        display: none;
+    }
+    .mobile-screenshot-wrapper {
+        display: initial;
+    }
 }
