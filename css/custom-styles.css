@@ -30,33 +30,6 @@ aqua blue #45A29E */
     color: #45A29E;
 }
 
-
-/* portfolio items */
-/* .portfolio-items {
-    display: grid;
-    grid-template-columns: 50% 50%;
-} */
-
-
-
-.item-wrapper {
-    /* border: 1px solid #CFCFCF; */
-    margin: 30px 20px;
-
-}
-
-.portfolio-items img {
-    max-width: 100%;
-    height: auto;
-
-    border: 1px solid #CFCFCF;
-}
-
-@media screen and (max-width: 1100px) {
-    .portfolio-items {
-        display: block;
-    }
-    /* .item-wrapper {
-        height: 100vh;
-    } */
+#projects img {
+    border: 1px solid #C5C6C7;
 }
