@@ -17,6 +17,43 @@ aqua blue #45A29E */
     margin-bottom: 20px;
 }
 
+/* first section */
+
+.profile-pic-wrapper {
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .profile-pic-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .profile-pic-wrapper {
+        margin-right: 20px;
+    }
+}
+
+
+.profile-pic {
+
+}
+
+@media screen and (max-width: 767px) {
+    .profile-pic {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .profile-pic {
+        max-width:300px;
+    }
+}
+
+
+
 /* about section */
 .last-name, .email-address {
     color: #45A29E !important;
