@@ -74,3 +74,7 @@ aqua blue #45A29E */
 #projects img {
     border: 1px solid #C5C6C7;
 }
+
+.experience-description {
+    text-align: justify;
+}
