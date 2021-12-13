@@ -36,9 +36,6 @@ aqua blue #45A29E */
 }
 
 
-.profile-pic {
-
-}
 
 @media screen and (max-width: 767px) {
     .profile-pic {
@@ -56,11 +53,16 @@ aqua blue #45A29E */
 
 /* about section */
 .last-name, .email-address {
-    color: #45A29E !important;
+    color: #bd5d38 !important;
 }
 
+/* .name-heading {
+    color: #bd5d38 !important;
+} */
+
 #sideNav {
-    background-color: #45A29E !important;
+    /* background-color: #45A29E !important; */
+    background-color: rgba(10, 25, 47, 0.85) !important;
 }
 
 .github-link {
@@ -77,4 +79,20 @@ aqua blue #45A29E */
 
 .experience-description {
     text-align: justify;
+}
+
+.skills-item svg {
+    color: #bd5d38 !important;
+}
+
+.skills-item span {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: 40%;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.photoshop-text {
+    vertical-align: 20% !important;
 }
