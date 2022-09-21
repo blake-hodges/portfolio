@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Blake's portfolio site" />
+    <meta name="author" content="Blake Hodges" />
     <title>Blake Hodges Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -52,7 +52,7 @@
                             <span class="last-name">Hodges</span>
                         </h1>
                         <div class="subheading mb-5">
-                            Jiangsu, Taizhou
+                            Greenville, NC
                             <a href="mailto:tbhodges@gmail.com" class="email-address">tbhodges@gmail.com</a>
                             <a class="github-link" href="https://github.com/blake-hodges" target="_blank"><i
                                     class="fab fa-github"></i></a>
@@ -64,9 +64,7 @@
                                 src="assets/img/profile-pic.jpg" alt="" /></div>
                     </div>
                 </div>
-                <p class="lead mb-5">I'm a web developer and designer that loves creating fast, responsive sites with
-                    clean designs. Most of my experience is with Wordpress, but I am comfortable using other CMS
-                    options. My skills include Javascript, React, HTML, CSS, responsive web design, and Adobe Photoshop.
+                <p class="lead mb-5">I'm a web developer and designer that loves creating fast, responsive sites with clean designs. My skills include Javascript, React, HTML, CSS, responsive web design, and modern js development tools. Also have experience with Wordpress and other CMS technologies.
                 </p>
             </div>
 
@@ -83,6 +81,11 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 projects">
+                        <a href="#" data-toggle="modal" data-target="#temporadoModal">
+                            <img class="img-fluid" src="assets/img/temporado-screenshot.png" alt="temporado app screenshot">
+                        </a>
+                    </div>
+                    <div class="col-md-4 projects">
                         <a href="#" data-toggle="modal" data-target="#weatherAppModal">
                             <img class="img-fluid" src="assets/img/weather-app.png" alt="weather app screenshot">
                         </a>
@@ -94,13 +97,11 @@
                         </a>
                     </div>
                     <div class="col-md-4 projects">
-                        <a href="#" data-toggle="modal" data-target="#rockPaperScissorsModal">
-                            <img class="img-fluid" src="assets/img/rock-paper-scissors-app-screenshot.png"
-                                alt="rock-paper-scissors app screenshot">
+                        <a href="#" data-toggle="modal" data-target="#coffeeRunModal">
+                            <img class="img-fluid" src="assets/img/coffee-run-screenshot.png"
+                                alt="coffee run screenshot">
                         </a>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-4 projects">
                         <a href="https://brittanyrawlsart.com">
                             <img class="img-fluid" src="assets/img/br-full.png" alt="brittany rawls art screenshot">
@@ -112,13 +113,11 @@
                         </a>
                     </div>
                     <div class="col-md-4 projects">
-                        <a href="https://smartprivatepractice.com">
-                            <img class="img-fluid" src="assets/img/smartprivatepractice.png"
-                                alt="smart private practice screenshot">
+                        <a href="#" data-toggle="modal" data-target="#rockPaperScissorsModal">
+                            <img class="img-fluid" src="assets/img/rock-paper-scissors-app-screenshot.png"
+                                alt="rock-paper-scissors app screenshot">
                         </a>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-4 projects">
                         <a href="https://platinumcfo.com">
                             <img class="img-fluid" src="assets/img/platinum-cfo.png" alt="platinum cfo screenshot">
@@ -130,19 +129,59 @@
                                 alt="heartfelt online screenshot">
                         </a>
                     </div>
+                    <div class="col-md-4 projects">
+                        <a href="https://smartprivatepractice.com">
+                            <img class="img-fluid" src="assets/img/smartprivatepractice.png"
+                                alt="smart private practice screenshot">
+                        </a>
+                    </div>
+
+
+
                 </div>
-            </div>
+                
         </section>
     <!-- ***************** -->
     <!-- ***** modals **** -->
     <!-- ***************** -->
-        <!-- Modal for weather app -->
-        <div class="modal fade" id="weatherAppModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+
+    <!-- Modal for Temporado travel app -->
+    <div class="modal fade" id="temporadoModal" tabindex="-1" aria-labelledby="temporadoModalLabel"
+    aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title " id="exampleModalLabel">Next.js Weather App</h5>
+                    <h5 class="modal-title">Temporado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p>Temporado travel booking web application (concept) to find short-term vacation rentals. Built with TailwindCSS, React, Node.js, and MongoDB</p>
+                        <img class="img-fluid" src="assets/img/temporado-screenshot.png" alt="temporado screenshot">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class="btn btn-primary" href="#" target="_blank">
+                    Live Demo
+                    </a>
+                    <a class="btn btn-primary" href="https://github.com/blake-hodges/temporado" target="_blank">
+                        Github Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for weather app -->
+    <div class="modal fade" id="weatherAppModal" tabindex="-1" aria-labelledby="weatherAppModalLabel"
+    aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Next.js Weather App</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -166,62 +205,91 @@
         </div>
     </div>
     <!-- Modal for wikipedia viewer app -->
-    <div class="modal fade" id="wikipediaViewerModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="wikipediaViewerModal" tabindex="-1" aria-labelledby="wikipediaViewerModalLabel"
     aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Wikipedia Viewer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p>Web app that allows you to search for top wikipedia entries as well as find a random wikipedia page. Built with React.js.</p>
+                        <img class="img-fluid" src="assets/img/wiki-viewer-screenshot.png" alt="weather app screenshot">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class="btn btn-primary" href="https://hopeful-davinci-7814c8.netlify.app/" target="_blank">
+                    Live Demo
+                    </a>
+                    <a class="btn btn-primary" href="https://github.com/blake-hodges/wiki-viewer" target="_blank">
+                        Github Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal for rock, paper, scissors game-->
+<div class="modal fade" id="rockPaperScissorsModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title " id="exampleModalLabel">Wikipedia Viewer</h5>
+                <h5 class="modal-title " id="exampleModalLabel">Rock, Paper, Scissors</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <div>
-                    <p>Web app that allows you to search for top wikipedia entries as well as find a random wikipedia page. Built with React.js.</p>
-                    <img class="img-fluid" src="assets/img/wiki-viewer-screenshot.png" alt="weather app screenshot">
+                    <p>Rock, paper, scissors game created with React using create-react-app.</p>
+                    <img class="img-fluid" src="assets/img/rock-paper-scissors-app-screenshot.png" alt="weather app screenshot">
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a class="btn btn-primary" href="https://hopeful-davinci-7814c8.netlify.app/" target="_blank">
+                <a class="btn btn-primary" href="https://quirky-volhard-d95eb1.netlify.app/" target="_blank">
                 Live Demo
                 </a>
-                <a class="btn btn-primary" href="https://github.com/blake-hodges/wiki-viewer" target="_blank">
+                <a class="btn btn-primary" href="https://github.com/blake-hodges/rock-paper-scissors" target="_blank">
                     Github Repo
                 </a>
             </div>
         </div>
     </div>
 </div>
-<!-- Modal for rock, paper, scissors game-->
-<div class="modal fade" id="rockPaperScissorsModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+<!-- Modal for coffee run application-->
+<div class="modal fade" id="coffeeRunModal" tabindex="-1" aria-labelledby="coffeeRunModalLabel"
 aria-hidden="true">
-<div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title " id="exampleModalLabel">Rock, Paper, Scissors</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-            <div>
-                <p>Rock, paper, scissors game created with React using create-react-app.</p>
-                <img class="img-fluid" src="assets/img/rock-paper-scissors-app-screenshot.png" alt="weather app screenshot">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title " id="exampleModalLabel">Coffee Run</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <p>Coffee ordering application built with vanilla JS.</p>
+                    <img class="img-fluid" src="assets/img/coffee-run-screenshot.png" alt="coffee run screenshot">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class="btn btn-primary" href="https://blake-hodges.github.io/coffee-run/" target="_blank">
+                Live Demo
+                </a>
+                <a class="btn btn-primary" href="https://github.com/blake-hodges/coffee-run" target="_blank">
+                    Github Repo
+                </a>
             </div>
         </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <a class="btn btn-primary" href="https://quirky-volhard-d95eb1.netlify.app/" target="_blank">
-            Live Demo
-            </a>
-            <a class="btn btn-primary" href="https://github.com/blake-hodges/rock-paper-scissors" target="_blank">
-                Github Repo
-            </a>
-        </div>
     </div>
-</div>
 </div>
     <!-- end modals -->
         <hr class="m-0" />
@@ -236,8 +304,6 @@ aria-hidden="true">
                     <li class="skills-item"><i class="fab fa-js-square"></i><span class="">Javascript</span></li>
                     <li class="skills-item"><i class="fab fa-react"></i><span class="">React</span></li>
                     <li class="skills-item"><i class="fab fa-wordpress"></i><span class="">Wordpress</span></li>
-                    <li class="skills-item"><img src="./assets/img/icons8-adobe-photoshop.svg"
-                            alt="Adobe Photoshop Icon" /><span class="photoshop-text">Adobe Photoshop</span></li>
                     <li class="skills-item"><i class="fab fa-git"></i><span class="">Git Version Control</span></li>
                 </ul>
             </div>
