@@ -73,7 +73,7 @@ aqua blue #45A29E */
     color: #45A29E;
 }
 
-#projects img {
+#projects img, .modal-body img {
     border: 1px solid #C5C6C7;
 }
 
